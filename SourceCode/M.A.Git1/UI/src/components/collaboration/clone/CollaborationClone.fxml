@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="205.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="components.collaboration.clone.CollaborationCloneController">
+   <center>
+      <GridPane prefHeight="174.0" prefWidth="504.0" BorderPane.alignment="CENTER">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="347.39996337890625" minWidth="10.0" prefWidth="207.60001220703126" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="296.0000122070312" minWidth="10.0" prefWidth="253.5999877929688" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label text="Enter Repository full path:" GridPane.hgrow="ALWAYS" />
+            <Label prefHeight="18.0" prefWidth="157.0" text="Enter Clone full path:" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" />
+            <TextField fx:id="fullPathTextField" prefHeight="21.0" prefWidth="281.0" GridPane.columnIndex="1" />
+            <TextField fx:id="cloneFullPathTextField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="cloneRepositorySubmitButton" mnemonicParsing="false" onAction="#OnCloneRepositorySubmitButtonClicked" prefHeight="26.0" prefWidth="86.0" text="Submit" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label prefHeight="18.0" prefWidth="157.0" text="Enter new name:" GridPane.rowIndex="2" />
+            <TextField fx:id="cloneNewNameTextField" prefHeight="21.0" prefWidth="281.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </BorderPane.margin>
+      </GridPane>
+   </center>
+</BorderPane>

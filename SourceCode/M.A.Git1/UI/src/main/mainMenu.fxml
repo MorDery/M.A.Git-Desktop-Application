@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="mainBorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="621.0" prefWidth="920.0" styleClass="mainBorderPane" stylesheets="@../components/cssManager/ActionBarStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MainAppController">
+   <top>
+      <MenuBar prefHeight="29.0" prefWidth="903.0" styleClass="menuBar" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" styleClass="button" text="Repository Settings">
+            <items>
+              <MenuItem fx:id="changeActiveUserButton" mnemonicParsing="false" onAction="#OnChangeActiveUserButton" styleClass="menuItem" text="Change active user" />
+                  <MenuItem fx:id="loadRepositoryFromXMLButton" mnemonicParsing="false" onAction="#OnloadRepositoryFromXMLButton" styleClass="menuItem" text="Load Repository from XML" />
+                  <MenuItem fx:id="InitiallizeNewRepositoryButton" mnemonicParsing="false" onAction="#OnInitiallizeNewRepositoryButton" styleClass="menuItem" text="Initiallize new Repository" />
+                  <MenuItem fx:id="ChangeRepositoryButton" mnemonicParsing="false" onAction="#OnChangeRepositoryButton" styleClass="menuItem" text="Change Repoistory" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" styleClass="button" text="Files and Commit">
+            <items>
+              <MenuItem fx:id="ShowWorkingCopyStatusButton" mnemonicParsing="false" onAction="#OnShowWorkingCopyStatusButton" styleClass="menuItem" text="Show WC status" />
+                  <MenuItem fx:id="CommitButton" mnemonicParsing="false" onAction="#OnCommitButton" styleClass="menuItem" text="Commit" />
+                  <MenuItem fx:id="commitInformationMenuItem" mnemonicParsing="false" onAction="#OnCommitInformationClick" styleClass="menuItem" text="Commit Information" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" styleClass="button" text="Branches">
+            <items>
+              <MenuItem fx:id="ShowAvailableBranchesButton" mnemonicParsing="false" onAction="#OnShowAvailableBranchesButton" styleClass="menuItem" text="Show available branches" />
+                  <MenuItem fx:id="CreateBranchButton" mnemonicParsing="false" onAction="#OnCreateBranchButton" styleClass="menuItem" text="Create branch" />
+                  <MenuItem fx:id="DeleteBranchButton" mnemonicParsing="false" onAction="#OnDeleteBranchButton" styleClass="menuItem" text="Delete branch" />
+                  <MenuItem fx:id="CheckoutBranchButton" mnemonicParsing="false" onAction="#OnCheckoutBranchButton" styleClass="menuItem" text="Checkout to other branch" />
+                  <MenuItem fx:id="ResetBranchButton" mnemonicParsing="false" onAction="#OnResetBranchButton" styleClass="menuItem" text="Reset branch" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" styleClass="button" text="Merge">
+                <items>
+                    <MenuItem fx:id="CreateMerge" mnemonicParsing="false" onAction="#OnMerge" styleClass="menuItem" text="Create merge" />
+                </items>
+            </Menu>
+
+            <Menu mnemonicParsing="false" styleClass="button" text="Collaboration">
+              <items>
+                <MenuItem fx:id="CollaborationClone" mnemonicParsing="false" onAction="#OnCollaborationCloneClicked" styleClass="menuItem" text="Clone" />
+                  <MenuItem fx:id="CollaborationFetch" mnemonicParsing="false" onAction="#OnCollaborationFetchClicked" styleClass="menuItem" text="Fetch" />
+                  <MenuItem fx:id="CollaborationPull" mnemonicParsing="false" onAction="#OnCollaborationPullClicked" styleClass="menuItem" text="Pull" />
+                  <MenuItem fx:id="CollaborationPush" mnemonicParsing="false" onAction="#OnCollaborationPushClicked" styleClass="menuItem" text="Push" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" styleClass="button" text="Bonuses">
+               <items>
+                  <MenuItem fx:id="changeSkinButton" mnemonicParsing="false" onAction="#OnChangeSkinButtonClick" styleClass="menuItem" text="Change Skin" />
+               </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <bottom>
+      <HBox prefHeight="194.0" prefWidth="850.0" BorderPane.alignment="CENTER">
+         <children>
+            <GridPane prefHeight="150.0" prefWidth="239.0" HBox.hgrow="ALWAYS">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="165.59999389648436" minWidth="10.0" prefWidth="165.59999389648436" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="119.19999999999999" minWidth="10.0" prefWidth="92.80000610351561" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="102.39998779296874" minHeight="10.0" prefHeight="49.6" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="88.0" minHeight="10.0" prefHeight="80.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label id="label" styleClass="labelsGridPane" text="Repository Location:" GridPane.hgrow="ALWAYS">
+                     <GridPane.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </GridPane.margin></Label>
+                  <Label id="label" prefHeight="18.0" prefWidth="138.0" styleClass="labelsGridPane" text="User name:" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </GridPane.margin></Label>
+                  <Label fx:id="RepositoryNameLabel" prefHeight="18.0" prefWidth="120.0" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" />
+                  <ScrollPane prefHeight="87.0" prefWidth="119.0" styleClass="treebackground" GridPane.columnIndex="1">
+                     <content>
+                        <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="92.0">
+                           <children>
+                              <Label fx:id="RepositoryLocationLabel" layoutX="-1.0" layoutY="37.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="10.0" />
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </ScrollPane>
+               </children>
+            </GridPane>
+            <VBox prefHeight="200.0" prefWidth="217.0" styleClass="mainBorderPane" HBox.hgrow="ALWAYS">
+               <children>
+                  <Label prefHeight="32.0" prefWidth="74.0" styleClass="labelsGridPane" text="Difference:" />
+                  <ScrollPane prefHeight="200.0" prefWidth="200.0" styleClass="treebackground">
+                     <content>
+                        <Label fx:id="differenceBetweenLastCommitLable" />
+                     </content>
+                  </ScrollPane>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </bottom>
+   <center>
+      <HBox prefHeight="385.0" prefWidth="494.0" BorderPane.alignment="CENTER">
+         <children>
+            <ScrollPane id="CommitTreeScrollPane" fx:id="CommitTreeScrollPane" prefHeight="386.0" prefWidth="399.0" styleClass="treebackground" HBox.hgrow="ALWAYS" />
+          <AnchorPane prefHeight="373.0" prefWidth="426.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <GridPane layoutY="3.0" prefHeight="308.0" prefWidth="472.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="233.60003662109375" minWidth="10.0" prefWidth="213.60001220703126" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="289.5999877929688" minWidth="10.0" prefWidth="258.3999877929688" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="38.599996948242186" minHeight="10.0" prefHeight="38.599996948242186" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="39.99999084472657" minHeight="10.0" prefHeight="39.99999084472657" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="73.5999969482422" minHeight="10.0" prefHeight="36.80000915527344" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="79.9999755859375" minHeight="10.0" prefHeight="53.5999816894531" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="126.99999084472658" minHeight="10.0" prefHeight="45.40001831054687" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="103.20000305175779" minHeight="10.0" prefHeight="66.19998168945312" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label text="Commit Info:">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets left="5.0" />
+                           </opaqueInsets>
+                        </Label>
+                        <Label styleClass="labelsGridPane" text="Sha-1:" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Label>
+                        <Label id="label" styleClass="labelsGridPane" text="Message:" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Label>
+                        <Label id="label" styleClass="labelsGridPane" text="Author:" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Label>
+                        <Label id="label" styleClass="labelsGridPane" text="Date of creation:" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Label>
+                        <Label id="label" prefHeight="27.0" prefWidth="211.0" styleClass="labelsGridPane" text="Preceding commit Sha-1:" GridPane.hgrow="ALWAYS" GridPane.rowIndex="5">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Label>
+                        <Label fx:id="CurrentCommitMessageLabel" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" />
+                        <Label fx:id="CurrentCommitAuthorLabel" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" />
+                        <Label fx:id="CurrentCommitDateLabel" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" />
+                        <TextArea fx:id="CurrentCommitPrecendingTextArea" prefHeight="59.0" prefWidth="290.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                        <Label id="label" styleClass="labelsGridPane" text="Branch name:" GridPane.rowIndex="6">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Label>
+                        <Label fx:id="CurrentCommitBranchLabel" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                        <TextArea fx:id="CurrentCommitSha1TextField" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                     </children>
+                  </GridPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+   </center>
+</BorderPane>

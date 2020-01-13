@@ -1,0 +1,28 @@
+.menuItem {
+    -fx-background-color: linear-gradient(#90EE90, #32CD32);
+    -fx-background-radius: 40;
+    -fx-background-insets: 0;
+    -fx-text-fill: black;
+}
+.menuItem:hover{
+    -fx-background-color: #00FF00;
+}
+.menuBar{
+    -fx-background-color: #ADFF2F;
+    -fx-border-width:1px ;
+}
+.mainBorderPane{
+    -fx-background-color:#ADFF2F;
+}
+.labelsGridPane{
+    -fx-background-color:#ADFF2F;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+}
+.treebackground{
+    -fx-background-color: ADFF2F;
+}
+.scroll-pane > .viewport{
+    -fx-background-color:transparent;
+}

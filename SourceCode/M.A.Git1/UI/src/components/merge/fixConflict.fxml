@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="399.0" prefWidth="622.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="components.merge.MergeController">
+   <top>
+      <AnchorPane prefHeight="401.0" prefWidth="604.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox layoutX="22.0" layoutY="46.0" prefHeight="283.0" prefWidth="579.0">
+               <children>
+                  <TextArea fx:id="oursText" editable="false" prefHeight="200.0" prefWidth="200.0" />
+                  <TextArea fx:id="AncestorText" editable="false" prefHeight="200.0" prefWidth="200.0" />
+                  <TextArea fx:id="theirsText" editable="false" prefHeight="200.0" prefWidth="200.0" />
+                  <TextArea fx:id="resultText" prefHeight="200.0" prefWidth="200.0" />
+               </children>
+            </HBox>
+            <Button fx:id="chooseFixConflict" alignment="CENTER" layoutX="211.0" layoutY="276.0" mnemonicParsing="false" onAction="#OnFixConflictClicked" prefHeight="30.0" prefWidth="102.0" text="Submit" textAlignment="CENTER" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="211.0" AnchorPane.rightAnchor="211.0" />
+            <Label layoutX="39.0" layoutY="21.0" text="Ours:" AnchorPane.leftAnchor="39.0" AnchorPane.topAnchor="21.0" />
+            <Label layoutX="486.0" layoutY="23.0" text="Result:" />
+            <Label layoutX="339.0" layoutY="23.0" text="Theirs:" />
+            <Label layoutX="186.0" layoutY="23.0" text="Ancestor:" />
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

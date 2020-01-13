@@ -1,0 +1,32 @@
+.menuItem {
+    -fx-background-color: linear-gradient(#E9967A, #FF69B4);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    display: block;
+    width: 60px;
+}
+.menuItem:hover{
+    -fx-background-color: pink;
+}
+.menuBar{
+    -fx-background-color: pink;
+    -fx-border-width:5px ;
+}
+.mainBorderPane{
+    -fx-background-color:pink;
+}
+.labelsGridPane{
+    -fx-background-color:pink;
+    -fx-font-family: "Bell MT";
+    -fx-font-size: 12px;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+.treebackground{
+    -fx-background-color: pink;
+}
+.scroll-pane > .viewport{
+    -fx-background-color:transparent;
+}

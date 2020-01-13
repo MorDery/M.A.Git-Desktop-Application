@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SystemEngine:jar" />
+      <artifact name="UI:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="UI" />
+      <module name="M.A.Git1" />
+    </loaded-modules>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e10b0be9-a23f-4e8b-a245-39606860a051" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PGw7anTtA63QeCjyOfYfeHagwA" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last.edited.regexp" value="Sample Text" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mor\Desktop\M.A.Git1\UI\src\components\newBrunch" />
+      <recent name="C:\Users\mor\Desktop\M.A.Git1\UI\src\components\deleteBrunch" />
+      <recent name="C:\Users\97250\Desktop\JAVA\GitExam\second exam\M.A.Git1\UI\src\main" />
+      <recent name="C:\Users\97250\Desktop\JAVA\GitExam\second exam\M.A.Git1\UI\src\Components\ChangeUser" />
+      <recent name="C:\Users\97250\Desktop\JAVA\GitExam\second exam\M.A.Git1\UI\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\97250\Desktop\Computer Science\2nd year - Summer\JAVA\GitExam\second exam\M.A.Git1\UI\src\components\commitTree\commitNode" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="FileZipper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LogicEngine.FileZipper" />
+      <module name="SystemEngine" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="UI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="UI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Menu" />
+      <module name="UI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contextMenu_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="contextMenu_1" />
+      <module name="UI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.contextMenu_1" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Menu" />
+        <item itemvalue="Application.FileZipper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e10b0be9-a23f-4e8b-a245-39606860a051" name="Default Changelist" comment="" />
+      <created>1563794365405</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563794365405</updated>
+      <workItem from="1563794368779" duration="20780000" />
+      <workItem from="1563876138021" duration="25878000" />
+      <workItem from="1564040298278" duration="12913000" />
+      <workItem from="1564211365360" duration="6719000" />
+      <workItem from="1564219783963" duration="5284000" />
+      <workItem from="1564225378827" duration="8100000" />
+      <workItem from="1564301836027" duration="3080000" />
+      <workItem from="1564305370837" duration="1343000" />
+      <workItem from="1564307596346" duration="4337000" />
+      <workItem from="1564317238224" duration="1140000" />
+      <workItem from="1564417400554" duration="22355000" />
+      <workItem from="1564560086550" duration="3719000" />
+      <workItem from="1564652640526" duration="20889000" />
+      <workItem from="1564679026875" duration="1168000" />
+      <workItem from="1564680252184" duration="11122000" />
+      <workItem from="1564842577622" duration="101000" />
+      <workItem from="1564843111130" duration="393000" />
+      <workItem from="1564852657778" duration="27000" />
+      <workItem from="1564899698465" duration="31562000" />
+      <workItem from="1565089738000" duration="9370000" />
+      <workItem from="1565121273812" duration="8783000" />
+      <workItem from="1565354002167" duration="31037000" />
+      <workItem from="1565513580432" duration="11269000" />
+      <workItem from="1565528131800" duration="333000" />
+      <workItem from="1565596276454" duration="3177000" />
+      <workItem from="1565599941084" duration="48000" />
+      <workItem from="1565600036020" duration="27440000" />
+      <workItem from="1565628897996" duration="210000" />
+      <workItem from="1565629962223" duration="590000" />
+      <workItem from="1565687043571" duration="17203000" />
+      <workItem from="1565715730910" duration="5369000" />
+      <workItem from="1565770459808" duration="9006000" />
+      <workItem from="1565783726372" duration="2910000" />
+      <workItem from="1565798481654" duration="6106000" />
+      <workItem from="1565805221610" duration="4564000" />
+      <workItem from="1565865783611" duration="523000" />
+      <workItem from="1565866760984" duration="5165000" />
+      <workItem from="1565872572637" duration="6440000" />
+      <workItem from="1565882649285" duration="2802000" />
+      <workItem from="1565893112722" duration="2180000" />
+      <workItem from="1565898006901" duration="47000" />
+      <workItem from="1566212410727" duration="9176000" />
+      <workItem from="1566232024356" duration="25213000" />
+      <workItem from="1566377886713" duration="795000" />
+      <workItem from="1566379098323" duration="27554000" />
+      <workItem from="1566471848505" duration="3519000" />
+      <workItem from="1566490957102" duration="2958000" />
+      <workItem from="1566494308395" duration="19627000" />
+      <workItem from="1566734565906" duration="24504000" />
+      <workItem from="1566899214308" duration="23489000" />
+      <workItem from="1567078933078" duration="98823000" />
+      <workItem from="1567456015146" duration="788000" />
+      <workItem from="1567494438803" duration="58000" />
+      <workItem from="1567503553072" duration="17670000" />
+      <workItem from="1567524977435" duration="1199000" />
+      <workItem from="1567680322417" duration="151000" />
+      <workItem from="1567699284703" duration="3495000" />
+      <workItem from="1567770908490" duration="10415000" />
+      <workItem from="1567796786984" duration="6569000" />
+      <workItem from="1567878347267" duration="21172000" />
+      <workItem from="1568116439978" duration="2174000" />
+      <workItem from="1568296117428" duration="10430000" />
+      <workItem from="1568378008144" duration="10307000" />
+      <workItem from="1568399494049" duration="1024000" />
+      <workItem from="1568449135519" duration="13871000" />
+      <workItem from="1568538972448" duration="6589000" />
+      <workItem from="1568622423857" duration="64615000" />
+      <workItem from="1568963732377" duration="10228000" />
+      <workItem from="1568986589540" duration="7241000" />
+      <workItem from="1568994632580" duration="166000" />
+      <workItem from="1568994968184" duration="1186000" />
+      <workItem from="1568999694968" duration="5748000" />
+      <workItem from="1569005598221" duration="14279000" />
+      <workItem from="1569065426083" duration="11946000" />
+      <workItem from="1570705929879" duration="3544000" />
+      <workItem from="1570725101952" duration="978000" />
+      <workItem from="1571075578949" duration="286000" />
+      <workItem from="1571137886013" duration="164000" />
+      <workItem from="1571318861980" duration="3201000" />
+      <workItem from="1571388562629" duration="20000" />
+      <workItem from="1571483291576" duration="1423000" />
+      <workItem from="1571485344800" duration="148000" />
+      <workItem from="1571485526436" duration="135000" />
+      <workItem from="1571490776272" duration="106000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/SystemEngine/src/jaxb/schema/generated/ObjectFactory.java</url>
+          <line>185</line>
+          <properties class="jaxb.schema.generated.ObjectFactory" method="createHead">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/components/newBrunch/newBrunchController.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/components/newBrunch/newBrunchController.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/components/newBrunch/newBrunchController.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/components/newBrunch/newBrunchController.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SystemEngine/src/LogicEngine/SchemaBasedJAXB.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="root" />
+        <watch expression="this" />
+        <watch expression="this" language="JAVA" />
+        <watch expression="((HashMap)LocalCopyRepository.m_Commits).entrySet().toArray()[3]" custom="java.util.HashMap" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/M_A_Git1$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1568644924507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>main.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/M_A_Git1$Main.ic" NAME="Main Coverage Results" MODIFIED="1564668345532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>chooseCommitSha</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>javafx.beans.property.SimpleObjectProperty</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((SimpleObjectProperty) chooseCommitSha</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>javafx.beans.property.SimpleObjectProperty</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((SimpleObjectProperty) chooseCommitSha.value).value</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>javafx.beans.property.SimpleObjectProperty</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((SimpleObjectProperty) chooseCommitSha.value)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>javafx.beans.property.SimpleObjectProperty</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((SimpleObjectProperty) chooseCommitSha.value).valid</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>javafx.beans.property.SimpleObjectProperty</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>chooseCommitSha.value</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>chooseCommitSha</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+</project>

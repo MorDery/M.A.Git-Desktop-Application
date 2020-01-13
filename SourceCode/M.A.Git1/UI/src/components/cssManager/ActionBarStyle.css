@@ -1,0 +1,32 @@
+.menuItem {
+    -fx-border: none;
+    -fx-color: white;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-font-size: 14px;
+}
+.menuItem:hover{
+   -fx-background-color: #0ca6ba;
+}
+.menuBar{
+    -fx-background-color: #ADD8E6;
+    -fx-border-width:1px ;
+}
+.mainBorderPane{
+    -fx-background-color:white;
+}
+.labelsGridPane{
+    -fx-background-color:white;
+    -fx-font-size: 14px;
+}
+.treebackground{
+    -fx-background-color: white;
+}
+.scroll-pane > .viewport{
+    -fx-background-color:transparent;
+}
+
+
+
+
